@@ -39,6 +39,8 @@ Herhangi bir işlemin sonucunda sıfır değeri elde ediliyorsa ZF **aktif** (1)
 
 ## Parity Flag (PF)
 ### Benzerlik (Eşlik) Bayrağı
+Bir işlemin ssonucunda eğer 1 bitlerinin sayısı **çift** ise eşlik bayrağı **aktif** olur. Eğer sonuçtaki 1 bitlerinin sayısı **tek** ise eşlik bayrağı **pasif** olur.
+Not: *Sonuç 16 bitlik bile olsa sadece düşük değerli 8 bit ele alınır.*
 
 
 
