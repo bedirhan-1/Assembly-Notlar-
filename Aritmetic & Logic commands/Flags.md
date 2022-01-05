@@ -12,11 +12,15 @@
 
 ## Direction Flag (DF)
 ### Yön Bayrağı
+Yön bayrağı diziler gibi ardışık verilerde özellikle string işemlerinde kullanılan komutların ileri yönlü mü yoksa geri yönlü mü çalıştığını belirlemek için kullanılır. DF=0 iken ileri yönlü, DF=1 iken geri yönlü işlem yapılır.
+*İleri yönlü => Düşük adresten yüksek adrese doğru.*
+*Geri yönlü => Yüksek adresten düşük adrese doğru.*
 
 
 
 ## Interrupt Enable Flag (IF)
 ### Kesme Aktif Bayrağı
+Bu bayrak **aktif** durumda olduğunda işlemciye harici cihazlarda kesme sinyalleri gönderiebilir.
 
 
 
@@ -34,7 +38,7 @@ Herhangi bir işlemin sonucunda sıfır değeri elde ediliyorsa ZF **aktif** olu
 
 ## Auxiliary Flag (AF)
 ### Yardımcı Elde Bayrağı
-İşaretsiz sayılarda yapılan işlemlerdeki düşük değerli 4 bitte taşma meydana gelirse AF **aktif** olur. 
+İşaretsiz sayılarda yapılan işlemlerdeki düşük değerli 4 bitte taşma meydana gelirse AF **aktif** olur. Taşma meydana gelmezse AF **pasif** olur. 4 bit ile 0-15 bit arasında sayılar ifade edilebilir.
 
 
 
