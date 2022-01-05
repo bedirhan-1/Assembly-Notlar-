@@ -17,12 +17,14 @@
 
 ## Sign Flag (SF)
 ### İşaret Bayrağı
+ALU tarafından gerçekleştirilen bir işlemin sonucu eğer negatgif ise işaret bayrağı **aktif** olur. Aksi halde **pasif** durumdadır.
 
 
 
 ## Zero Flag (ZF)
 ### Sıfır Bayrağı
 Herhangi bir işlemin sonucunda sıfır değeri elde ediliyorsa ZF **aktif** (1) olur. Gerçekleşen işlemin sonucunda sıfır değeri elde edilmiyorsa ZF **pasif** (0)
+
 
 
 ## Auxiliary Flag (AF)
