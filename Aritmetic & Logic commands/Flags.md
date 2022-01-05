@@ -15,6 +15,7 @@
 Yön bayrağı diziler gibi ardışık verilerde özellikle string işemlerinde kullanılan komutların ileri yönlü mü yoksa geri yönlü mü çalıştığını belirlemek için kullanılır. DF=0 iken ileri yönlü, DF=1 iken geri yönlü işlem yapılır.
 
 *İleri yönlü => Düşük adresten yüksek adrese doğru.*
+
 *Geri yönlü => Yüksek adresten düşük adrese doğru.*
 
 
