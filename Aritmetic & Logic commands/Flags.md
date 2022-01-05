@@ -1,9 +1,9 @@
 # Flags
 
-```
-aktif : 1
-pasif : 0
-```
+
+- **aktif** : 1
+- **pasif** : 0
+
 ## Overflow Flag (OF)
 ### Taşma Bayrağı
 
@@ -28,12 +28,13 @@ ALU tarafından gerçekleştirilen bir işlemin sonucu eğer negatgif ise işare
 
 ## Zero Flag (ZF)
 ### Sıfır Bayrağı
-Herhangi bir işlemin sonucunda sıfır değeri elde ediliyorsa ZF **aktif** (1) olur. Gerçekleşen işlemin sonucunda sıfır değeri elde edilmiyorsa ZF **pasif** (0)
+Herhangi bir işlemin sonucunda sıfır değeri elde ediliyorsa ZF **aktif** olur. Gerçekleşen işlemin sonucunda sıfır değeri elde edilmiyorsa ZF **pasif**
 
 
 
 ## Auxiliary Flag (AF)
 ### Yardımcı Elde Bayrağı
+İşaretsiz sayılarda yapılan işlemlerdeki düşük değerli 4 bitte taşma meydana gelirse AF **aktif** olur. 
 
 
 
@@ -46,7 +47,7 @@ Not: *Sonuç 16 bitlik bile olsa sadece düşük değerli 8 bit ele alınır.*
 
 ## Carry Flag (CF)
 ### Elde Bayrağı
-İşaretsiz sayılar ile yapılan işlemlerden yaşanan taşmalar sonucunda yaşanan taşmalar sonucunda bu bayrak **aktif** (1) olur. İşlem sonucundaherhangi bir taşma meydana gelmezse **pasif** (0) olur.
+İşaretsiz sayılar ile yapılan işlemlerden yaşanan taşmalar sonucunda yaşanan taşmalar sonucunda bu bayrak **aktif** olur. İşlem sonucundaherhangi bir taşma meydana gelmezse **pasif** olur.
 
 8 bitlik bir ifade için işaretli sayılar 0-255 arasındadır.
 Örneğin; 
