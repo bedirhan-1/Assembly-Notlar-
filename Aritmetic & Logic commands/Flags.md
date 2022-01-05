@@ -1,8 +1,12 @@
 # Flags
 
+```aktif : 1
+   pasif : 0
+```
 ## Overflow Flag (OF)
 ### Taşma Bayrağı
 
+İşaretli sayılarda işlem sonucu işaretli sayı aralıpını aşıyorsa taşma bayrağı **aktif** olacaktır. Aksi halde **pasif** durumdadır.
 
 
 ## Direction Flag (DF)
@@ -34,6 +38,7 @@ Herhangi bir işlemin sonucunda sıfır değeri elde ediliyorsa ZF **aktif** (1)
 
 ## Parity Flag (PF)
 ### Benzerlik (Eşlik) Bayrağı
+
 
 
 ## Carry Flag (CF)
