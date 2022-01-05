@@ -1,7 +1,8 @@
 # Flags
 
-```aktif : 1
-   pasif : 0
+```
+aktif : 1
+pasif : 0
 ```
 ## Overflow Flag (OF)
 ### Taşma Bayrağı
