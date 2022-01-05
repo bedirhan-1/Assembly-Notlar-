@@ -3,23 +3,36 @@
 ## Overflow Flag (OF)
 ### Taşma Bayrağı
 
+
+
 ## Direction Flag (DF)
 ### Yön Bayrağı
+
+
 
 ## Interrupt Enable Flag (IF)
 ### Kesme Aktif Bayrağı
 
+
+
 ## Sign Flag (SF)
 ### İşaret Bayrağı
 
+
+
 ## Zero Flag (ZF)
 ### Sıfır Bayrağı
+Herhangi bir işlemin sonucunda sıfır değeri elde ediliyorsa ZF **aktif** (1) olur. Gerçekleşen işlemin sonucunda sıfır değeri elde edilmiyorsa ZF **pasif** (0)
+
 
 ## Auxiliary Flag (AF)
 ### Yardımcı Elde Bayrağı
 
+
+
 ## Parity Flag (PF)
 ### Benzerlik (Eşlik) Bayrağı
+
 
 ## Carry Flag (CF)
 ### Elde Bayrağı
