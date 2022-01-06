@@ -53,7 +53,7 @@ Not: *Sonuç 16 bitlik bile olsa sadece düşük değerli 8 bit ele alınır.*
 
 ## Carry Flag (CF)
 ### Elde Bayrağı
-İşaretsiz sayılar ile yapılan işlemlerden yaşanan taşmalar sonucunda yaşanan taşmalar sonucunda bu bayrak **aktif** olur. İşlem sonucundaherhangi bir taşma meydana gelmezse **pasif** olur.
+İşaretsiz sayılar ile yapılan işlemlerden yaşanan taşmalar sonucunda yaşanan taşmalar sonucunda bu bayrak **aktif** olur. İşlem sonucunda herhangi bir taşma meydana gelmezse **pasif** olur.
 
 8 bitlik bir ifade için işaretli sayılar 0-255 arasındadır.
 Örneğin; 
